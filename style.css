@@ -1,0 +1,202 @@
+* {
+    font-family: "Inter", sans-serif; 
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(#FFFFFF, #E2FFDC);
+}
+img{
+    width: 100%;
+}
+
+/* Banner Container Start  */
+#banner {
+    background-image: url(../aset/hero-bg.png);
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto 120px auto;
+    width: 87.5%;
+    border-radius: 40px;
+    border: 2px solid #872BFF10;
+    padding: 20px 30px;
+}
+#banner-conten {
+    width: 50%;
+    display: ;
+}
+#banner-conten * {
+    margin-bottom: 20px;
+}
+#banner-conten h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+#banner-conten p {
+    font-weight: medium;
+    font-size: 18px;
+    color: rgb(156, 88, 0);
+}
+
+#banner-conten h1 span {
+    color: #F411CF;
+}
+.btn {
+    background-color: #872BFF;
+    border-radius: 30px;
+    padding: 16px 40px;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.btn-w {
+    border-color: #872BFF;
+    border-radius: 30px;
+    padding: 16px 40px;
+    color: black;
+    cursor: pointer;
+}
+
+/* Banner Container End  */
+
+
+
+/* Sarvice Container Start  */
+.heding-conten {
+    text-align: center;
+}
+.heding-conten h4 {
+    color: #F411CF;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-bottom: 10px;
+}
+#sarvic-card-conten {
+    display: flex;
+}
+.heding-conten h2 {
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+#sarvic,
+#story,
+#contry,
+#review-conten-aria {
+    width: 87.5%;
+    margin: 0 auto 120px auto;
+}
+#sarvic-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+.sarvic-card {
+    background-color: white;
+    padding: 60px 40px;
+    text-align: center;
+    width: 300px;
+    border-radius: 30px;
+    border: solid 1px #cbc4c4;
+}
+.sarvic-card img {
+    margin-bottom: 60px;
+}
+.sarvic-card h2 {
+    font-weight: semibold;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.sarvic-card p,
+#star p,
+#story-conten p {
+    color: #7f7e7e;
+}
+/* Sarvice Container End  */
+
+
+
+/* Story Container Start  */
+.story-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 24px;
+    display: flex;
+    gap: 20px;
+}
+#story-conten h2,
+#story-conten p,
+#story-conten img {
+    margin-bottom: 30px;
+}
+/* Story Container End  */
+
+
+
+/* Contry Container Start  */
+#contry-card {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#contry-card h2 {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+}
+#btnc {
+    text-align: center;
+    margin-top: 50px;
+}
+/* Contry Container End  */
+
+
+
+/* Review Container Start  */
+#review-conten-aria {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    line-height: 30px;
+    border-radius: 16px;
+}
+#star {
+    background-image: url(aset/star-reviews.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+/* Review Container End  */
+
+
+
+
+/* Footer Start  */
+.row {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F3F3;
+    padding: 20px;
+}
+#call p {
+    margin-left: 40px; 
+    color: #5B5757;
+}
+#social-icon i{
+   display: inline-block;
+   font-size: 20px;
+   margin: 0 15px;
+   color: #872BFF;
+}
+#social-icon{
+     margin-right: 28px;
+}
+/* Footer End  */
