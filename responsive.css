@@ -1,8 +1,10 @@
 /* Dextop device  */
-@media screen and (max-width: 1440px) {}
+@media screen and (min-height: 1280px; ) {}
 
-/* Leptop device  */
-@media screen and (max-width: 1024px) {
+/* Leptop device Start */
+@media screen and (max-width: 1279px) {
+    /* Banner Container  */
+
     #banner-conten h1 {
         font-size: 40px;
     }
@@ -11,26 +13,72 @@
         font-size: 13px;
     }
 
-    .btn {
-        padding: 10px 30px;
-        margin: 20px 20px 0 0;
+    /* Sarvice Container  */
 
+    .heding-conten h4 {
+        font-size: 15px;
+        letter-spacing: 10px;
     }
 
-    .btn-w {
-        padding: 10px 30px;
+    .heding-conten h2 {
+        font-size: 30px;
     }
 
+    .sarvic-card {
+        padding: 45px 30px;
+        max-width: 250px;
+    }
+
+    .sarvic-card img {
+        margin-bottom: 55px;
+        max-width: 80px;
+    }
+
+    .sarvic-card h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .sarvic-card p {
+        font-size: 13px;
+    }
+
+    /* Story Container Start  */
+    #story-conten h2,
+    #story-conten p,
+    #story-conten img {
+        margin-bottom: 17px;
+    }
+
+    #contry-card h2 {
+        padding: 25px 30px;
+        border-radius: 17px;
+    }
+
+
+    /* Review Container  */
+    #review-container .heding-conten h4 {
+        letter-spacing: 7px;
+    }
+
+    #review-container .heding-conten h2 {
+        font-size: 40px;
+    }
 }
 
+/* Leptop device End */
 
 
-
-/* Teblet device  */
+/* Teblet device Start */
 @media screen and (max-width: 768px) {
+
+    /* Banner Container  */
+    #banner {
+        margin: 80px auto 90px auto;
+    }
+
     #button {
-        /* display: flex; */
-        text-align: center;
+        width: 300px;
     }
 
     #banner-conten h1 {
@@ -41,24 +89,164 @@
         font-size: 10px;
     }
 
+    #button {
+        margin-top: 15px;
+    }
+
     .btn {
-        padding: 7px 30px;
-        margin: 10px 20px 0 0;
+        padding: 4px 25px;
+        margin-right: 20px;
         font-size: 10px;
     }
 
     .btn-w {
-        padding: 7px 30px;
-        margin: 10px 20px 0 0;
+        padding: 4px 20px;
         font-size: 10px;
     }
 
+    /* Sarvice Container  */
+    #sarvic-card-container {
+        margin-top: 40px;
+    }
+
+    .heding-conten h4 {
+        font-size: 10px;
+    }
+
+    .heding-conten h2 {
+        font-size: 22px;
+    }
+
+    .sarvic-card {
+        padding: 30px 20px;
+        max-width: 250px;
+        border-radius: 20px;
+    }
+
+    .sarvic-card img {
+        margin-bottom: 30px;
+        width: 60px;
+    }
+
+    .sarvic-card h2 {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .sarvic-card p {
+        font-size: 11px;
+    }
+
+    /* Story Container Start  */
+    .heding-conten h4 {
+        font-size: 15px;
+        letter-spacing: 6px;
+    }
+
+    .heding-conten h2 {
+        font-size: 30px;
+    }
+
+    .story-img img {
+        max-width: 312px;
+    }
+
+    #story-conten h2,
+    #story-conten p,
+    #story-conten img {
+        margin-bottom: 14px;
+    }
+
+    .story-card {
+        padding: 30px;
+        border-radius: 23px;
+        gap: 20px;
+    }
+
+    .story-card h2 {
+        font-size: 17px;
+    }
+
+    .story-card p {
+        font-size: 12px;
+
+    }
+
+    /* Conrtry Container  */
+    #contry-card {
+        margin-top: 40px;
+    }
+
+    #contry-card h2 {
+        font-size: 18px;
+        padding: 18px 30px;
+        border-radius: 14px;
+    }
+
+    #btnc .btn {
+        font-size: 15px;
+        padding: 7px 40px;
+    }
+
+    /* Review Container  */
+    #review-container .heding-conten h4 {
+        letter-spacing: 6px;
+    }
+
+    #review-container .heding-conten h2 {
+        font-size: 35px;
+    }
+
+    #review-conten-aria p {
+        text-align: justify;
+        font-size: 12.4px;
+        line-height: 28px;
+    }
+
+    #star h4 {
+        font-size: 14px;
+    }
+
+    #star p {
+        text-align: center;
+    }
+
+    #review-conten-aria {
+        background-image: url(aset/star-reviews.png);
+        background-repeat: no-repeat;
+        background-position: bottom 20px center;
+        border-radius: 25px;
+    }
+
+    #star {
+        background-image: url();
+        padding-bottom: 45px;
+    }
+
+
+
+    /* Footer Container  */
+    #call p {
+        margin-left: 30px;
+        font-size: 12px;
+    }
+
+    #social-icon {
+        margin-right: 19px;
+    }
+
+    #social-icon i {
+        font-size: 18px;
+    }
 }
 
+/* Teblet device End */
 
 
-/* Mobile L device  */
-@media screen and (max-width: 426px) {
+/* Mobile device Star */
+@media screen and (max-width: 480px) {
+    /* Banner Conotainer  */
+
     #banner-conten {
         width: 100%;
         text-align: center;
@@ -73,11 +261,20 @@
     }
 
     #button {
-        margin-left: 24px;
+        display: inline-block;
     }
 
     .btn {
-        margin: 10px 30px 0 0;
+        margin-right: 0px;
+        font-size: 12px;
+        padding: 5px 30px;
+        width: 120px;
+    }
+
+    .btn-w {
+        font-size: 12px;
+        padding: 5px 30px;
+        width: 150px;
     }
 
     #banner {
@@ -88,57 +285,154 @@
         border-radius: 25px;
         padding: 20px 15px;
     }
-}
+
+    /* Sarvice Container  */
+    #sarvic-card-container {
+        flex-direction: column;
+        margin-top: 32px;
+    }
+
+    .heding-conten h4 {
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+
+    .heding-conten h2 {
+        font-size: 28px;
+    }
+
+    .sarvic-card {
+        padding: 45px 40px;
+        max-width: 250px;
+        border-radius: 25px;
+    }
+
+    .sarvic-card img {
+        margin-bottom: 50px;
+        width: 70px;
+    }
+
+    .sarvic-card h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .sarvic-card p {
+        font-size: 12px;
+    }
+
+    /* Story Container Start  */
+    .heding-conten h4 {
+        font-size: 11px;
+        letter-spacing: 5px;
+    }
+
+    .heding-conten h2 {
+        font-size: 22px;
+    }
+
+    #story-conten h2,
+    #story-conten p,
+    #story-conten img {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #story-conten {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .btn {
+        width: 150px;
+        padding: 7px 0px;
+    }
+
+    .story-card {
+        flex-direction: column;
+        padding: 40px 30px;
+        border-radius: 23px;
+        gap: 25px;
+    }
+
+    .story-img {
+        text-align: center;
+    }
+
+    .story-card h2 {
+        font-size: 17px;
+    }
+
+    .story-card p {
+        font-size: 12px;
+
+    }
+
+    #contry-card {
+        margin-top: 0px;
+    }
+
+    #contry-card h2 {
+        font-size: 15px;
+        padding: 12px 20px;
+        border-radius: 12px;
 
 
-/* Mobile M device  */
-@media screen and (max-width: 376px) {
-    #banner-conten h1 {
+    }
+
+    #btnc .btn {
+        font-size: 15px;
+        padding: 8px 20px;
+    }
+
+    /* Review Container  */
+    #review-container .heding-conten h4 {
+        letter-spacing: 4px;
+    }
+
+    #review-container .heding-conten h2 {
         font-size: 25px;
     }
 
-    #banner-conten p {
+    #review-conten-aria p {
+        line-height: 22px;
+    }
+
+    #star h4 {
         font-size: 13px;
     }
 
-    #button {
-        margin-left: 22px;
-    }
-
-    .btn {
-        padding: 5px 20px;
-        margin: 10px 25px 0 0;
-    }
-
-    .btn-w {
-        padding: 5px 20px;
-    }
-
-}
-
-
-/* Mobile S device  */
-@media screen and (max-width: 321px) {
-    #banner {
-        margin: 30px auto 40px auto;
-
-    }
-
-    #banner-conten h1 {
-        font-size: 20px;
-    }
-
-    #banner-conten p {
+    #star p {
         font-size: 11px;
     }
 
-    .btn {
-        padding: 2px 15px;
-        width: 100px;
+    #review-conten-aria {
+        background-image: url(aset/star-reviews.png);
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: bottom 20px center;
+        border-radius: 22px;
     }
 
-    .btn-w {
-        padding: 2px 15px;
+    /* Footer Container  */
+    .row {
+        padding: 15px;
+    }
+
+    #call p {
+        margin-left: 12px;
+        font-size: 9px;
+        margin-top: 5px;
+    }
+
+    #social-icon {
+        margin-right: 4px;
+    }
+
+    #social-icon i {
+        font-size: 15px;
     }
 
 }
+
+/* Mobile device End */
