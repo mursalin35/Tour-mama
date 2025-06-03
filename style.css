@@ -17,7 +17,7 @@ img {
 
 /* Banner Container Start  */
 #banner {
-    background-image: url(../aset/hero-bg.png);
+    background-image: url(aset/hero-bg.png);
     background-color: whitesmoke;
     display: flex;
     justify-content: space-between;
